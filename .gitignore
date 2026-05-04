@@ -1,0 +1,26 @@
+# Ignore SYSTEM FILES
+.DS_Store
+.AppleDouble
+.LSOverride
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# 1. Ignore everything in the root directory
+/*
+
+# 2. Allow the .gitignore file itself (so you can save your rules)
+!/.gitignore
+
+# 3. Allow the src folder
+!/src/
+
+# 4. Filter the "heavy" stuff INSIDE src that you don't want
+src/Dataset-V1-Roboflow/
+src/Unseen-Test-Data-Roboflow/
+src/PowerLogs-V1/
+src/exports-V1/
