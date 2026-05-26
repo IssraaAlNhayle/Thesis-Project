@@ -13,13 +13,18 @@ venv/
 # 1. Ignore everything in the root directory
 /*
 
-# 2. Allow the .gitignore file itself (so you can save your rules)
+# 2. Allow the .gitignore, README and src folder
 !/.gitignore
-
-# 3. Allow the src folder
+!/README.md
 !/src/
 
-# 4. Filter the "heavy" stuff INSIDE src that you don't want
+# 3. Filter heavy / non-essential stuff INSIDE src
 src/Dataset-V1-Roboflow/
 src/Unseen-Test-Data-Roboflow/
 src/PowerLogs-V1/
+src/Training/runs/
+src/runs/
+src/exports-V1/
+src/**/*.pt
+src/**/*.mlpackage
+src/**/__pycache__/
