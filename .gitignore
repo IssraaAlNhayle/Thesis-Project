@@ -13,9 +13,10 @@ venv/
 # 1. Ignore everything in the root directory
 /*
 
-# 2. Allow the .gitignore, README and src folder
+# 2. Allow the .gitignore, README, assets and src folder
 !/.gitignore
 !/README.md
+!/assets/
 !/src/
 
 # 3. Filter heavy / non-essential stuff INSIDE src
